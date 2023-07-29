@@ -14,11 +14,32 @@
     window.$docsify = {
       name: '',
       repo: '',
-	  loadSidebar: true,
+      loadSidebar: true,
+      //自动显示标题
+      autoHeader: true,
+      //自动跳转到页面顶部
+      auto2top: true,
+      //小屏设备下合并导航栏到侧边栏
+      mergeNavbar: true,
+      //搜索插件
+      search: {
+          placeholder: '搜索试试',
+          noData: '没有结果！',
+      },
 
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="guide/js/docsify.min.js"></script>
+  <script src="guide/js/search.min.js"></script>
+  <script src="guide/js/prism-java.min.js"></script>
+  <script src="guide/js/emoji.min.js"></script>
+  <script src="guide/js/zoom-image.min.js"></script>
+  <script src="guide/js/docsify-copy-code.js"></script>
+  <script src="guide/js/docsify-sidebar-collapse.min.js"></script>
+  <script src="guide/js/docsify-plugin-flexible-alerts.js"></script>
+  <script src="guide/js/vanilla-back-to-top.min.js"></script>
+  <script src="guide/js/docsify-darklight-theme.js"></script>
 </body>
 </html>
