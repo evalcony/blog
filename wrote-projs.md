@@ -1,4 +1,11 @@
 
+- Epub2Txt - 一个对epub文档按章节进行切分并且转txt的项目。
+
+- EncodingTrans - 一个文件编码转换的项目。
+
+- ModVersionCompare - 一个对mod的不同版本进行文件比对的项目。
+这是一个简化版。逐行比对版在 TransMod2CN 项目中内置。
+
 - TransMod2CN - 一个python项目，将博德之门 baldur's gate 1,2 的英文版 mod 汉化为中文，并自动转码。
 基于该项目，已成功汉化《博德之门：龙矛围攻（SoD）》。
 
